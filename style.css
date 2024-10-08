@@ -11,11 +11,26 @@
     font-variation-settings:
       "wdth" 100;
   }
+.btn{
+    background-color: rgb(253, 110, 10);
+    /* width: 100px;
+    height: 44px; */
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header{
+    background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 nav{
  display: flex;
  justify-items: center; 
- justify-content: space-evenly;  
+ justify-content: space-between;
+ margin: 40px 180px;  
 }
 .nav-title{
     font-weight: 800;
@@ -37,4 +52,35 @@ nav li a{
 }
 nav ul{
     display: flex;
+    align-items: center;
+}
+.banner-gritence{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size: 85px;
+    font-size: bold;
+    margin-bottom: 20px;
+}
+.profile-picuter{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 180px;
+
+}
+.banner-content{
+    width: 580px;
+}
+.banner-description
+{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
